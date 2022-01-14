@@ -147,12 +147,12 @@
 <body style=" background-color: white;">
     <div class="container">
         <!--header-->
-        <div class="header" style="margin-bottom: 10px;">
+        <div class="header" style="margin-bottom: 10px; height: 100%;">
             <div class="row">
             <nav>
                 <!-- <div class="row"> -->
                     <div class="col-md-1"></div>
-                    <div class="col-md-7" style="margin-top: 0.5%;">
+                    <div class="col-md-5" style="margin-top: 0.5%;">
                         <div class="weather_station">
                             <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="logo-header"
                                 style="width: 100%; max-width: 80px; align-content: center; float: left;">
@@ -161,12 +161,17 @@
                             </h1>
                         </div>
                     </div>
-                    <div class="col-md-3" style="margin-top: 0.5%;">
-                        <h4 id="date_time_now" style="font-size: 17px; padding-top: 11%; padding-left: 13%; float: right; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
-                        <h4 id="date_time"
-                            style="font-size: 17px; padding-top: 11%; padding-left: 13%; float: right; font-family: 'IBM Plex Sans Thai', sans-serif;">
+                    <div class="col-md-5" style="margin-top: 0.5%;">
+                        <div class="row">
+                            <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
+                        </div>
+                        <div class="row">
+                            <h4 id="date_time"
+                            style="font-size: 17px;text-align: end; margin-top: 12px; padding-left: 13%; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
 
                         </h4>
+                        </div>
+                        
                     </div>
                     <div class="col-md-1"></div>
                 
