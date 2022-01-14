@@ -35,10 +35,7 @@
     }
 
     .card {
-        /* max-width: 240px; */
-        /* margin: auto; */
         margin-top: 4%;
-        /* height: auto; */
         height: 140px;
         width: 100%;
         border-radius: 10px;
@@ -52,23 +49,18 @@
     }
 
     .card-temp {
-        /* max-width: 240px; */
         height: 140px;
         font-size: 20px;
         width: 100%;
-        /* height: auto; */
         padding: 10px;
         background: linear-gradient(#fca904, #fde8be);
         border-radius: 10px;
-        /* padding: 5%; */
     }
 
     .card-humidity {
-        /* max-width: 240px; */
         height: 140px;
         font-size: 20px;
         width: 100%;
-        /* height: auto; */
         padding: 10px;
         background: linear-gradient(#0074e0, #88c6ff);
         border-radius: 10px;
@@ -76,10 +68,8 @@
     }
 
     .card-wind-speed {
-        /* max-width: 240px; */
         font-size: 20px;
         width: 100%;
-        /* height: auto; */
         height: 140px;
         padding: 10px;
         background: linear-gradient(#006400, #9debaa);
@@ -88,10 +78,8 @@
     }
 
     .card-wind-speed1 {
-        /* max-width: 240px; */
         font-size: 20px;
         width: 100%;
-        /* height: auto; */
         height: 140px;
         padding: 10px;
         background: linear-gradient(#006400, #9debaa);
@@ -100,10 +88,8 @@
     }
 
     .card-rainfall {
-        /* max-width: 240px; */
         font-size: 20px;
         width: 100%;
-        /* height: auto; */
         height: 140px;
         padding: 10px;
         background: linear-gradient(#0053a0, #83cbff);
@@ -112,10 +98,8 @@
     }
 
     .card-rainfall1 {
-        /* max-width: 240px; */
         font-size: 20px;
         width: 100%;
-        /* height: auto; */
         height: 140px;
         padding: 10px;
         background: linear-gradient(#0053a0, #83cbff);
@@ -124,11 +108,9 @@
     }
 
     .card-wind-vane {
-        /* max-width: 240px; */
         max-height: 500px;
         font-size: 20px;
         width: 100%;
-        /* height: 100%; */
         height: 140px;
         padding: 10px;
         background: linear-gradient(#006400, #9debaa);
@@ -155,8 +137,6 @@
 
     .footer {
         height: 1000px;
-        /* height: 100px; */
-        /* margin-top: 200px; */
         margin: auto;
         color: white;
         clear: both;
@@ -332,9 +312,7 @@
 </body>
 <script>
     var locationId = <?php echo $_GET["id"]?>;
-    // var locationId = 1555446;
     function loaddata() {
-        //  $("#graph").hide();
         var url = "https://api.thingspeak.com/channels/"+locationId+"/feeds.json?results=1";
         $.getJSON(url)
             .done((data) => {
@@ -383,8 +361,6 @@
                 $("#windspeed1_data").text(datawindspeed1);
                 $("#rainfall_data").text(datarainfall);
                 $("#rainfall1_data").text(datarainfall1);
-                // $("#windvane_data").append(datawindvane);
-                // $("#date_time").text(datetime);
                 ChangeWindUnit(datawindvane)
                 PullWeather(lat,long)
                 changeDate(datetime)
@@ -394,7 +370,6 @@
     }
     function PullWeather(lat,long){
                 
-                //$("#hid1").show();
                 var url = "https://api.openweathermap.org";
                 url = url + "/data/2.5/weather?lat="+lat+"&lon="+long+"&appid=a455c00476d1492900b85d3a61b5c51a&units=metric";
                 $.getJSON(url)
@@ -445,23 +420,7 @@
             let formattedTime = day+ ' ' + realMonth + ' ' + year + ' ' + hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
                 $("#date_time").text(formattedTime);
         }
-//         function datenow(){
-//             let date = new Date();
-//             let date2 = + date.getDate();
-//             let month2 = + date.getMonth();
-//             let realMonth = month[month2];
-//             let year = + date.getFullYear();
-//             // console.log(date.getDate());
-//             // console.log(date.getMonth());
-//             // console.log(date.getFullYear());
-//             let hours = + date.getHours();
-//             let minutes = "0" + date.getMinutes();
-//             let seconds = "0" + date.getSeconds();
-//             let formattedTime = date2 + ' ' + realMonth + ' ' + year + '  ' + hours + ':' + minutes.substr(-2)  ;
-//             console.log(formattedTime);
-//                 $("#date_time").text(formattedTime);
-//                 return this.formattedTime;
-//         }
+    
         function sunr(d_time){
             let unix = d_time*1000;
             let date = new Date(unix);
@@ -499,7 +458,6 @@
 
     $(() => {
         loadAll();
-//         datenow();
         //show graph
         $("#graph").attr("src", "https://thingspeak.com/channels/"+locationId+"/maps/channel_show?fbclid=IwAR1JOcptE3UbrPT5Joha820nGViVXdCWWLPwII1Vrska7Xy8kzEFXOQWhCE");
         $("#temp").click(() => {
@@ -544,14 +502,7 @@
             url = url + "charts/" + value;
             $("#graph").attr("src", url);
         });
-        // $("#wind-vane").click(() => {
-        //     $("#graph").show();
-        //     var value = 406417;
-        //     var url = "https://thingspeak.com/channels/"+locationId+"/";
-        //     url = url + "widgets/" + value;
-        //     // $("#graph").attr("src", url);
-        //     $("#graph").attr("src", url);
-        // });
+      
     })
 </script>
 
