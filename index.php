@@ -162,6 +162,7 @@
                         </div>
                     </div>
                     <div class="col-md-3" style="margin-top: 0.5%;">
+                        <h4 id="date_time_now" style="font-size: 17px; padding-top: 11%; padding-left: 13%; float: right; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
                         <h4 id="date_time"
                             style="font-size: 17px; padding-top: 11%; padding-left: 13%; float: right; font-family: 'IBM Plex Sans Thai', sans-serif;">
 
@@ -420,6 +421,20 @@
             let formattedTime = day+ ' ' + realMonth + ' ' + year + ' ' + hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
                 $("#date_time").text(formattedTime);
         }
+        function datenow(){
+            let date = new Date();
+            let date2 = + date.getDate();
+            let month2 = + date.getMonth();
+            let realMonth = month[month2];
+            let year = + date.getFullYear();
+            let hours = + date.getHours();
+            let minutes = "0" + date.getMinutes();
+            let seconds = "0" + date.getSeconds();
+            let formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2) ;
+            console.log(formattedTime);
+                $("#date_time_now").text(formattedTime);
+                return this.formattedTime;
+        }
     
         function sunr(d_time){
             let unix = d_time*1000;
@@ -454,10 +469,15 @@
             PullWeather();
             setTimeout(loadAll,60000);
         }
+        function timeNow(){
+            datenow();
+            setTimeout(timeNow,1000);
+        }
 
 
     $(() => {
         loadAll();
+        timeNow();
         //show graph
         $("#graph").attr("src", "https://thingspeak.com/channels/"+locationId+"/maps/channel_show?fbclid=IwAR1JOcptE3UbrPT5Joha820nGViVXdCWWLPwII1Vrska7Xy8kzEFXOQWhCE");
         $("#temp").click(() => {
