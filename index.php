@@ -408,7 +408,7 @@
                 
         }
         function ChangeWindUnit(wind_u){
-            if(wind_u == 360 && wind_u == 0){
+            if(wind_u == 360 || wind_u == 0){
                 $("#windvane_data").text("North");
             }else if(wind_u == 45){
                 $("#windvane_data").text("North-East");
