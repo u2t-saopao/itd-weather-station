@@ -499,7 +499,7 @@
 
     $(() => {
         loadAll();
-        datenow();
+//         datenow();
         //show graph
         $("#graph").attr("src", "https://thingspeak.com/channels/"+locationId+"/maps/channel_show?fbclid=IwAR1JOcptE3UbrPT5Joha820nGViVXdCWWLPwII1Vrska7Xy8kzEFXOQWhCE");
         $("#temp").click(() => {
