@@ -505,16 +505,16 @@
         });
         $("#wind-speed").click(() => {
             $("#graph").show();
-            var value = 406418;
+            var value = 3;
             var url = "https://thingspeak.com/channels/"+locationId+"/";
-            url = url + "widgets/" + value;
+            url = url + "charts/" + value;
             $("#graph").attr("src", url);
         });
         $("#wind-speed1").click(() => {
             $("#graph").show();
-            var value = 406419;
+            var value = 4;
             var url = "https://thingspeak.com/channels/"+locationId+"/";
-            url = url + "widgets/" + value;
+            url = url + "charts/" + value;
             $("#graph").attr("src", url);
         });
         $("#rainfall").click(() => {
