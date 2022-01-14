@@ -387,6 +387,7 @@
                 // $("#date_time").text(datetime);
                 ChangeWindUnit(datawindvane)
                 PullWeather(lat,long)
+                changeDate(datetime)
             }, 3000).fail((xhr, status, err) => {
                 console.log("error")
             })
@@ -431,24 +432,36 @@
         //     document.body.style.background = color;
         // }
         const month = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
-        
-        function datenow(){
-            let date = new Date();
-            let date2 = + date.getDate();
-            let month2 = + date.getMonth();
-            let realMonth = month[month2];
-            let year = + date.getFullYear();
-            // console.log(date.getDate());
-            // console.log(date.getMonth());
-            // console.log(date.getFullYear());
-            let hours = + date.getHours();
+        function changeDate(d_time){
+            let date = new Date(d_time);
+            let year = date.getFullYear();
+            let months = date.getMonth();
+            let realMonth = month[months];
+            let day = date.getDate();
+            let hours = date.getHours();
             let minutes = "0" + date.getMinutes();
             let seconds = "0" + date.getSeconds();
-            let formattedTime = date2 + ' ' + realMonth + ' ' + year + '  ' + hours + ':' + minutes.substr(-2)  ;
-            console.log(formattedTime);
+
+            let formattedTime = day+ ' ' + realMonth + ' ' + year + ' ' + hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2);
                 $("#date_time").text(formattedTime);
-                return this.formattedTime;
         }
+//         function datenow(){
+//             let date = new Date();
+//             let date2 = + date.getDate();
+//             let month2 = + date.getMonth();
+//             let realMonth = month[month2];
+//             let year = + date.getFullYear();
+//             // console.log(date.getDate());
+//             // console.log(date.getMonth());
+//             // console.log(date.getFullYear());
+//             let hours = + date.getHours();
+//             let minutes = "0" + date.getMinutes();
+//             let seconds = "0" + date.getSeconds();
+//             let formattedTime = date2 + ' ' + realMonth + ' ' + year + '  ' + hours + ':' + minutes.substr(-2)  ;
+//             console.log(formattedTime);
+//                 $("#date_time").text(formattedTime);
+//                 return this.formattedTime;
+//         }
         function sunr(d_time){
             let unix = d_time*1000;
             let date = new Date(unix);
