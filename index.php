@@ -244,7 +244,7 @@
                 </div>
                 <div class="col-6">
                     <div class="card" style="margin-top: 3px;">
-                        <div class="card-rainfall1" id="rainfall1">
+                        <div class="card-rainfall1">
                             <div class="row">
                                 <div class="col-6" style="margin-left: auto; margin-right: auto;">
                                     <div class="row" style="justify-content: center;">
