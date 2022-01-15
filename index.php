@@ -147,7 +147,7 @@
 <body style=" background-color: white;">
     <div class="container">
         <!--header-->
-        <div class="header" style="margin-bottom: 10px; height: 100%;">
+        <div class="header" style="margin-bottom: 10px; height: 100%; border-radius: 0px 0px 8px 8px;">
             <div class="row">
             <nav>
                     <div class="container">
@@ -286,7 +286,7 @@
         </div>
 
         <!-- footer-->
-        <div class="footer" style=" height: 100%; background: linear-gradient(#73a4ff, #4081fa, #003699);">
+        <div class="footer" style="border-radius: 5px 5px 0px 0px; height: 100%; background: linear-gradient(#73a4ff, #4081fa, #003699);">
             <div class="row">
                 <div class="col-sm-3">
                     <!-- <input type="button" onclick="ThemeSwitch('#02223f');"> -->
