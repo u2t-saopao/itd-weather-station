@@ -151,7 +151,7 @@
             <div class="row">
             <nav>
                     <div class="container">
-                        <div class="col-md-7" style="margin-top: 0.5%;">
+                        <div class="col-md-6" style="margin-top: 0.5%;">
                             <div class="weather_station">
                                     <a class="navbar-brand" href="#">
                                         <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block ">
@@ -163,7 +163,7 @@
                         </div>   
                     
                     
-                    <div class="col-md-5" style="margin-top: 0.5%;">
+                    <div class="col-md-6" style="margin-top: 0.5%;">
                         <div class="row">
                             <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
                         </div>
