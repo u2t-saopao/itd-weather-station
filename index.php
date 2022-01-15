@@ -168,9 +168,10 @@
                             <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
                         </div>
                         <div class="row">
+                            <h4> Last Update:</h4>
                             <h4 id="date_time"
                             style="font-size: 17px;text-align: end; margin-top: 12px; padding-left: 13%; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
-                            Last Update:
+                           
                         </h4>
                         </div>
                         
