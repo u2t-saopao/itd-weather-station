@@ -415,7 +415,7 @@
         // function ThemeSwitch(color){
         //     document.body.style.background = color;
         // }
-        const month = ["มกราคม","กุมภาพันธ์","มีนาคม","เมษายน","พฤษภาคม","มิถุนายน","กรกฎาคม","สิงหาคม","กันยายน","ตุลาคม","พฤศจิกายน","ธันวาคม"]
+        const month = ["Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"]
         function changeDate(d_time){
             let date = new Date(d_time);
             let year = date.getFullYear();
