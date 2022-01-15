@@ -535,6 +535,10 @@
             url = url + "charts/" + value;
             $("#graph").attr("src", url);
         });
+        $("#showMap").click(() => {
+            $("#graph").show();
+            $("#graph").attr("src", "https://thingspeak.com/channels/"+locationId+"/maps/channel_show?fbclid=IwAR1JOcptE3UbrPT5Joha820nGViVXdCWWLPwII1Vrska7Xy8kzEFXOQWhCE");
+        });
       
     })
 </script>
