@@ -150,18 +150,26 @@
         <div class="header" style="margin-bottom: 10px; height: 100%;">
             <div class="row">
             <nav>
-                <!-- <div class="row"> -->
-                    <div class="col-md-1"></div>
-                    <div class="col-md-5" style="margin-top: 0.5%;">
-                        <div class="weather_station">
-                            <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="logo-header"
-                                style="width: 100%; max-width: 80px; align-content: center; float: left;">
-                            <h1 id="webname"
-                                style=" padding-top: 2%; padding-left: 11%;font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold;">
-                            </h1>
-                        </div>
-                    </div>
-                    <div class="col-md-5" style="margin-top: 0.5%;">
+                    <div class="container">
+                        <div class="col-md-8" style="margin-top: 0.5%;">
+                            <div class="weather_station">
+                                    <a class="navbar-brand" href="#">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block " style="margin-left: 40px;">
+                                        <b id="webname" style=" color: white; font-size: 42px ; padding-left: 10px; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold; padding-top: 50px;"> </b>
+                                    </a>
+                                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="logo-header"
+                                        style="width: 100%; max-width: 80px; "> -->
+                                    <!-- <h1 id="webname"
+                                        style="margin-left: 100px; top: 0; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold;">
+                                    </h1> -->
+                                <a href="#">
+                                    <img src="map.png" id="showMap" alt="logo-map" style="width: 50px; margin-top: 5px;" >
+                                </a>     
+                            </div>
+                        </div>   
+                    
+                    
+                    <div class="col-md-4" style="margin-top: 0.5%;">
                         <div class="row">
                             <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
                         </div>
@@ -173,7 +181,7 @@
                         </div>
                         
                     </div>
-                    <div class="col-md-1"></div>
+                    </div>
                 
             </nav></div>
         </div>
