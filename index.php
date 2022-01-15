@@ -154,7 +154,7 @@
                         <div class="col-md-8" style="margin-top: 0.5%;">
                             <div class="weather_station">
                                     <a class="navbar-brand" href="">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block " style="margin-left: 40px;">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block " style="margin-left: 10px;">
                                         <b id="webname" style=" color: white; font-size: 42px ; padding-left: 10px; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold; padding-top: 50px;"> </b>
                                     </a>
                                     <!-- <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="logo-header"
@@ -171,11 +171,11 @@
                     
                     <div class="col-md-4" style="margin-top: 0.5%;">
                         <div class="row">
-                            <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif; margin-right: 40px;"></h4>
+                            <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
                         </div>
                         <div class="row">
                             <h4 id="date_time"
-                            style="font-size: 17px;text-align: end; margin-top: 12px; padding-left: 13%; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif; margin-right: 40px;">
+                            style="font-size: 17px;text-align: end; margin-top: 12px; padding-left: 13%; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
 
                         </h4>
                         </div>
