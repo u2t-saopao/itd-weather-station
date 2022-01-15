@@ -444,7 +444,7 @@
             let minutes = "0" + date.getMinutes();
             let seconds = "0" + date.getSeconds();
             let formattedTime = hours + ':' + minutes.substr(-2) + ':' + seconds.substr(-2) ;
-            console.log(formattedTime);
+//             console.log(formattedTime);
                 $("#date_time_now").text(formattedTime);
                 return this.formattedTime;
         }
