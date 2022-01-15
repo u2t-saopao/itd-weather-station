@@ -162,7 +162,7 @@
                                     <!-- <h1 id="webname"
                                         style="margin-left: 100px; top: 0; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold;">
                                     </h1> -->
-                                <a >
+                                <a href="#">
                                     <img src="map.png" id="showMap" alt="logo-map" style="width: 50px; margin-top: 5px;" >
                                 </a>     
                             </div>
