@@ -171,11 +171,11 @@
                     
                     <div class="col-md-4" style="margin-top: 0.5%;">
                         <div class="row">
-                            <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
+                            <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif; margin-right: 40px;"></h4>
                         </div>
                         <div class="row">
                             <h4 id="date_time"
-                            style="font-size: 17px;text-align: end; margin-top: 12px; padding-left: 13%; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
+                            style="font-size: 17px;text-align: end; margin-top: 12px; padding-left: 13%; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif; margin-right: 40px;">
 
                         </h4>
                         </div>
