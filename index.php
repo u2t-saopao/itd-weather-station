@@ -153,18 +153,12 @@
                     <div class="container">
                         <div class="col-md-8" style="margin-top: 0.5%;">
                             <div class="weather_station">
-                                    <a class="navbar-brand" href="">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block " >
-                                        <b id="webname" style=" color: white; font-size: 42px ; padding-left: 10px; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold; padding-top: 50px;"> </b>
+                                    <a class="navbar-brand" href="#">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block ">
+                                        <b id="webname"  style=" color: white; font-size: 42px ; padding-left: 10px; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold; padding-top: 50px;"> </b>
+                                        <img src="map.png" class="d-inline-block "  id="showMap" alt="logo-map" style="width: 45px; padding-bottom: 20px; margin-left: 10px;  ">
                                     </a>
-                                    <!-- <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="logo-header"
-                                        style="width: 100%; max-width: 80px; "> -->
-                                    <!-- <h1 id="webname"
-                                        style="margin-left: 100px; top: 0; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold;">
-                                    </h1> -->
-                                <a href="#">
-                                    <img src="map.png" id="showMap" alt="logo-map" style="width: 50px; margin-top: 5px;" >
-                                </a>     
+                                      
                             </div>
                         </div>   
                     
