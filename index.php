@@ -167,7 +167,7 @@
                         <div class="row">
                             <h4 id="date_time_now" style=" text-align: end; font-size: 17px; padding-top: 8%; padding-left: 13%;  right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;"></h4>
                         </div>
-                        <div class="row" style="align-content: flex-end;" >
+                        <div class="row">
                             <span style="font-size: 17px; margin-top: 12px;text-align: center; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">Last update:
                             <span id="date_time"
                              style="font-size: 17px; margin-top: 12px;text-align: end; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
