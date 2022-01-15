@@ -154,7 +154,7 @@
                         <div class="col-md-8" style="margin-top: 0.5%;">
                             <div class="weather_station">
                                     <a class="navbar-brand" href="">
-                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block " style="margin-left: 10px;">
+                                        <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="" width="70" height="auto" class="d-inline-block " >
                                         <b id="webname" style=" color: white; font-size: 42px ; padding-left: 10px; font-family: 'IBM Plex Sans Thai', sans-serif; font-weight: bold; padding-top: 50px;"> </b>
                                     </a>
                                     <!-- <img src="https://cdn-icons-png.flaticon.com/512/3127/3127236.png" alt="logo-header"
