@@ -170,7 +170,7 @@
                         <div class="row">
                     
                             <h4 id="date_time"
-                            style="font-size: 17px;text-align: end; margin-top: 12px; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
+                            style="font-size: 17px;text-align: end; margin-top: 12px; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">Last update: 
                            
                         </h4>
                         </div>
