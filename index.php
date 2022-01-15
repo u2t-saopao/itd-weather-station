@@ -170,7 +170,7 @@
                         <div class="row">
                             <span style="font-size: 17px; margin-top: 0px;text-align: end; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">Last update:
                             <span id="date_time"
-                             style="font-size: 17px; margin-top: 0px; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
+                             style="font-size: 17px;padding-bottom: 20px; margin-top: 0px; right: 0; font-family: 'IBM Plex Sans Thai', sans-serif;">
                             </span>
                             
                             </span>
